@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundo Dinosaurio</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="./src/img/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/img/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="./src/img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/img/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="./src/img/favicon/site.webmanifest" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-start" href="./index.html">
+            <img
+              class="img-logo"
+              src="./src/img/logo/logo.png"
+              alt="Logo de la pagina Mundo dinosaurio"
+            />
+            <h2 class="fs-4">Mundo dinosaurio</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#introducción"
+                  >Introducción</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conócelos">Conócelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galería">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#periodo">Periodo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#documental">Documental</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#novedades">Novedades</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="text-center fw-bold pb-4">
+              Bienvenido al mundo de los dinosaurios
+            </h1>
+            <p class="fs-4 text-center lh-base pb-4">
+              Explora la fascinante era de los gigantes prehistórico que
+              dominaron la tierra durante millones de años. Descubre sus tipos,
+              los períodos en que vivieron, cómo se extinguieron y los
+              increíbles descubrimientos que continúan recelando sis secretos
+            </p>
+            <div
+              class="text-center justify-content-center d-flex flex-column flex-md-row container"
+            >
+              <a
+                href="#conócelos"
+                class="btn btn-primary boton-1 me-md-3"
+                type="submit"
+              >
+                Descubre a los gigantes
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" />
+                </svg>
+              </a>
+              <a
+                href="#novedades"
+                class="btn btn-primary boton-2"
+                type="submit"
+              >
+                Mantente al día
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-1 py-5" id="introducción">
+        <div class="container container-secction-1">
+          <h2 class="fs-1 fw-semibold text-center">
+            ¿Qué son los dinosaurios?
+          </h2>
+          <div
+            class="d-flex flex-column flex-md-row gap-3 pb-5 pt-3 align-items-center container-section-1-text"
+          >
+            <p class="fs-5 p-0">
+              Los dinosaurios fueron un grupo diverso de reptiles que dominaron
+              los ecosistemas terrestres durante más de 160 millones de años,
+              desde el período Triásico (hace aproximadamente 230 millones de
+              años) hasta el final del Cretácico (hace 66 millones de años). A
+              lo largo de su existencia, desarrollaron una gran variedad de
+              formas y tamaños, adaptándose a distintos ambientes del planeta.
+              Algunos fueron enormes herbívoros, mientras que otros eran ágiles
+              carnívoros. Su extinción, probablemente causada por el impacto de
+              un asteroide y cambios climáticos drásticos, marcó el fin de su
+              dominio y permitió la evolución de nuevos grupos de animales,
+              entre ellos las aves, sus descendientes directos.
+            </p>
+            <img
+              src="./src/img/conoce/img-1.webp"
+              alt="Varios dinosaurios en si habitad natural"
+              class="rounded-3"
+            />
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row gap-3 pb-5 align-items-center container-section-1-text"
+          >
+            <img
+              src="./src/img/conoce/img-2.jpg"
+              alt="Varios dinosaurios Carnívoros en su habitad natural"
+              class="rounded-3 order-2"
+            />
+            <p class="fs-5 p-0 order-1 order-md-2">
+              El término "dinosaurio" proviene del griego y significa "lagarto
+              terrible". Sin embargo, estos animales eran mucho más diversos y
+              fascinantes de lo que su nombre sugiere. Variaban enormemente en
+              tamaño, desde especies diminutas del tamaño de un pollo hasta
+              gigantes que superaban los 30 metros de longitud. Además,
+              presentaban una amplia variedad de formas, comportamientos y modos
+              de vida: algunos caminaban en dos patas, otros en cuatro; unos
+              eran feroces cazadores, mientras que muchos se alimentaban de
+              plantas. Lejos de ser simples reptiles torpes, los dinosaurios
+              fueron criaturas activas y adaptadas a su entorno, con
+              características que en algunos casos anticipaban rasgos de las
+              aves modernas.
+            </p>
+          </div>
+          <div
+            class="d-flex gap-3 flex-column flex-md-row align-items-center container-section-1-text"
+          >
+            <p class="fs-5 p-0">
+              Aunque la mayoría de los dinosaurios se extinguió hace millones de
+              años, su legado continúa vivo en la actualidad. Las aves modernas
+              descienden directamente de los dinosaurios terópodos, un grupo que
+              incluye a especies como el famoso Velociraptor. Esta conexión
+              evolutiva, respaldada por abundantes fósiles y estudios genéticos,
+              revela que muchas características de las aves —como las plumas,
+              los huevos con cáscara dura y ciertos comportamientos— ya estaban
+              presentes en sus antepasados dinosaurios. Por ello, se puede decir
+              que, en un sentido biológico, los dinosaurios nunca desaparecieron
+              por completo: aún sobreviven en cada ave que alza vuelo.
+            </p>
+            <img
+              src="./src/img/conoce/img-3.webp"
+              alt="Imagen de la teoría de la evolución de los dinosaurios"
+              class="rounded-3"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2 py-5" id="conócelos">
+        <div class="container-section-2">
+          <h2 class="text-center fs-1 fw-semibold">
+            Conoce a los gigantes prehistórico
+          </h2>
+          <p class="text-center">
+            Descubre algunos de los dinosaurios más fascinantes que habitaron
+            nuestro planeta
+          </p>
+          <div class="bento-grid">
+            <div class="rex">
+              <div class="container-card-text">
+                <h3>Tyrannosaurus Rex</h3>
+                <p>
+                  El rey de kis dinosaurios carnívoros. Con dientes de hasta
+                  30cm y una mordida más poderosa que cualquier animal terrestre
+                  conocido.
+                </p>
+              </div>
+              <div class="container-especie">
+                <span>Cretácico</span>
+                <span>Carnívoro</span>
+              </div>
+            </div>
+            <div class="saurus">
+              <div class="container-card-brachio">
+                <h3>Brachiosaurus</h3>
+                <p>
+                  Uno de los dinosaurios más altos, alcanzando hasta 13 metros
+                  de altura.
+                </p>
+              </div>
+              <div class="container-especie-2">
+                <span>Herbívoro</span>
+              </div>
+            </div>
+            <div class="Trice">
+              <div class="container-card-trice">
+                <h3>Triceratops</h3>
+                <p>Tres cuernos y un collar óseo para defensa.</p>
+              </div>
+            </div>
+            <div class="tierra">
+              <h3>165M</h3>
+              <p>Años que los dinosaurios dominaron la tierra</p>
+            </div>
+            <div class="Velo">
+              <div class="container-card-velo">
+                <h3>Velociraptor</h3>
+                <p>Cazador inteligente y ágil del Cretácico.</p>
+              </div>
+            </div>
+            <div class="Especie">
+              <div class="container-card-especie">
+                <h3>700+</h3>
+                <p>Especies de dinosaurios identificadas</p>
+              </div>
+            </div>
+            <div class="Stego">
+              <div class="container-card-stego">
+                <h3>Stegosaurus</h3>
+                <p>
+                  Famoso por sus placas dorsales y cola con púas. Un herbívoro
+                  del Jurásico con un cerebro del tamaño de una nuez..
+                </p>
+              </div>
+              <div class="container-especie-3">
+                <span>Jurásico</span>
+                <span>Herbívoro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3 py-5" id="galería">
+        <div class="container container-section-3">
+          <h2 class="text-center fs-1 fw-semibold">Galería de Dinosaurios</h2>
+          <p class="text-center fs-5">
+            Explora nuestra colección de imágenes de los dinosaurios más
+            fascinantes
+          </p>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./src/img/carrusel/rex-1.webp"
+                  class="d-block w-100"
+                  alt="Tyrannosaurus Rex"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Tyrannosaurus Rexl</h3>
+                  <p>El depredador más temido del Cretácico tardío</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./src/img/carrusel/velociraptor.webp"
+                  class="d-block w-100"
+                  alt="Velociraptor
+"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Velociraptor</h3>
+                  <p>Cazador inteligente y ágil del Cretácico</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./src/img/carrusel/brachiosaurus-2.webp"
+                  class="d-block w-100"
+                  alt="Brachiosaurus"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Brachiosaurus</h3>
+                  <p>El gigante herbívoro más alto de todos los tiempos</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-6 py-5" id="periodo">
+        <div class="container">
+          <h2 class="text-center fs-1 fw-semibold mb-2">Períodos geológico</h2>
+          <div class="d-flex align-items-center gap-2 conteiner-title">
+            <h2 class="fw-semibold fs-1">Triásico</h2>
+            <p class="m-0 py-1 px-3 rounded-4">51 millones de años</p>
+          </div>
+          <p>252 - 201 millones de años</p>
+          <div class="row row-cols-1 g-3 container-cards pb-3">
+            <div class="col-12">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title fs-3 mb-3">Descripción General</h3>
+                  <p class="card-text">
+                    El período Triásico marcó el comienzo de la era de los
+                    dinosaurios. Fue una época de recuperación tras la mayor
+                    extinción masiva de la historia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card card-tamaño">
+                <div class="card-body">
+                  <h3 class="card-title">Clima y Geografía</h3>
+                  <p class="card-text">
+                    Cálido y seco, con un supercontinente llamado Pangea
+                  </p>
+                  <h4>Características:</h4>
+                  <ul>
+                    <li class="mb-2">Aparición de los primeros dinosaurios</li>
+                    <li class="mb-2">Dominio inicial de los arcosaurios</li>
+                    <li class="mb-2">Clima árido con pocas zonas polares</li>
+                    <li>Pangea aún unido</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title">Dinosaurios Destacados</h3>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Eoraptor</h4>
+                    <p>Uno de los dinosaurios más antiguos conocidos</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Herrerasaurus</h4>
+                    <p>Carnívoro primitivo del tamaño de un humano</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Plateosaurus</h4>
+                    <p>Uno de los primeros dinosaurios herbívoros grandes</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Coelophysis</h4>
+                    <p>Pequeño terópodo ágil y cazador</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 mt-4 conteiner-title">
+            <h2 class="fw-semibold fs-1">Jurásico</h2>
+            <p class="m-0 py-1 px-3 rounded-4">56 millones de años</p>
+          </div>
+          <p>201 - 145 millones de años</p>
+          <div class="row row-cols-1 g-3 pb-3 container-cards">
+            <div class="col-12">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title fs-3 mb-3">Descripción General</h3>
+                  <p class="card-text">
+                    El período Jurásico fue la edad dorada de los dinosaurios.
+                    Los saurópodos gigantes dominaron la tierra y aparecieron
+                    los primeros pájaros.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card card-tamaño">
+                <div class="card-body">
+                  <h3 class="card-title">Clima y Geografía</h3>
+                  <p class="card-text">
+                    Cálido y húmedo, con abundante vegetación
+                  </p>
+                  <h4>Características:</h4>
+                  <ul>
+                    <li class="mb-2">Apogeo de los saurópodos gigantes</li>
+                    <li class="mb-2">Aparición de los primeros pájaros</li>
+                    <li class="mb-2">Pangea comienza a fragmentarse</li>
+                    <li>Abundantes bosques de coníferas</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title">Dinosaurios Destacados</h3>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Brachiosaurus</h4>
+                    <p>Gigante herbívoro con cuello extremadamente largo</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Allosaurus</h4>
+                    <p>Depredador dominante del Jurásico</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Stegosaurus</h4>
+                    <p>Famoso por sus placas dorsales y cola con espinas</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Archaeopteryx</h4>
+                    <p>Eslabón entre dinosaurios y aves modernas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 mt-4 conteiner-title">
+            <h2 class="fw-semibold fs-1">Cretácico</h2>
+            <p class="m-0 py-1 px-3 rounded-4">79 millones de años</p>
+          </div>
+          <p>145 - 66 millones de años</p>
+          <div class="row row-cols-1 g-3 pb-3 container-cards">
+            <div class="col-12">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title fs-3 mb-3">Descripción General</h3>
+                  <p class="card-text">
+                    El período Cretácico fue el último y más largo de la era de
+                    los dinosaurios. Terminó con la extinción masiva que acabó
+                    con los dinosaurios no aviares.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card card-tamaño">
+                <div class="card-body">
+                  <h3 class="card-title">Clima y Geografía</h3>
+                  <p class="card-text">
+                    Cálido, con niveles del mar altos y aparición de plantas con
+                    flores
+                  </p>
+                  <h4>Características:</h4>
+                  <ul>
+                    <li class="mb-2">Mayor diversidad de dinosaurios</li>
+                    <li class="mb-2">Aparición de plantas con flores</li>
+                    <li class="mb-2">Continentes más separados</li>
+                    <li>Terminó con extinción masiva</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card container-card">
+                <div class="card-body">
+                  <h3 class="card-title">Dinosaurios Destacados</h3>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Tyrannosaurus Rex</h4>
+                    <p>El depredador más famoso de todos los tiempos</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Triceratops</h4>
+                    <p>Herbívoro con tres cuernos y gran volante</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Velociraptor</h4>
+                    <p>Pequeño pero inteligente cazador con pluma</p>
+                  </div>
+                  <div class="ps-2 list-card">
+                    <h4 class="mb-0 fs-5">Spinosaurus</h4>
+                    <p>El dinosaurio carnívoro más grande conocido</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secction-4 py-5" id="documental">
+        <div class="container container-section-4">
+          <h2 class="text-center fs-1 fw-semibold">
+            Documental: La Era de los Dinosaurios
+          </h2>
+          <p class="text-center fs-5">
+            Mira este fascinante documental que te llevará a través de millones
+            de años de historia prehistórica
+          </p>
+          <iframe
+            class="rounded-3"
+            src="https://www.youtube.com/embed/5WHEo7hywSs?si=7sZRgnECJlSfPPUS"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section-5 py-5" id="novedades">
+        <div class="container container-section-5">
+          <h2 class="text-center fs-1 fw-semibold">Mantente Actualizado</h2>
+          <p class="text-center fs-5">
+            Suscríbete a nuestro boletín para recibir los últimos
+            descubrimientos sobre dinosaurios y paleontología
+          </p>
+          <form action="" class="d-flex flex-column gap-3">
+            <div class="d-flex flex-column gap-1">
+              <label for="name" class="fw-medium">Nombre</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Tu nombre"
+                required
+                class="py-2 px-3 rounded-2"
+              />
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <label for="email" class="fw-medium">Correo electrónico</label>
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Tu@email.com"
+                class="py-2 px-3 rounded-2"
+              />
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <label for="interes" class="fw-medium"
+                >¿Cuál es tu interés principal?</label
+              >
+              <select
+                name="interes"
+                id="interes"
+                class="py-2 px-3 rounded-2"
+                required
+              >
+                <option value="">Selecciona una opción</option>
+                <option value="">Tipos de dinosaurios</option>
+                <option value="">Períodos geológicos</option>
+                <option value="">La extinción</option>
+                <option value="">Descubrimientos y fósiles</option>
+                <option value="">Interés general</option>
+              </select>
+            </div>
+            <div class="d-flex flex-column gap-2 container-buton">
+              <input
+                class="button py-2 rounded-2 text-white"
+                type="submit"
+                value="Suscribirse ahora"
+              />
+              <small class="text-center"
+                >No compartimos tu información. Puedes desuscribirte en
+                cualquier momento.</small
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="my-5">
+      <div class="container">
+        <div
+          class="row d-flex justify-content-between pb-3 flex-column flex-xl-row"
+        >
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Mundo Dinosaurio</p>
+            <small
+              >Explora el fascinante mundo de los dinosaurios y descubre los
+              secretos de la era prehistórica</small
+            >
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Explorar</p>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#introducción" class="text-decoration-none"
+                  >Introducción</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#conócelos" class="text-decoration-none">Conócelos</a>
+              </li>
+              <li class="mb-1">
+                <a href="#galería" class="text-decoration-none">Galería</a>
+              </li>
+              <li class="mb-1">
+                <a href="#periodo" class="text-decoration-none">Periodo</a>
+              </li>
+              <li class="mb-1">
+                <a href="#documental" class="text-decoration-none"
+                  >Documental</a
+                >
+              </li>
+              <li>
+                <a href="#novedades" class="text-decoration-none">Novedades</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">recursos</p>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Glosario</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Línea de Tiempo</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Galería de Imágenes</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Para Educadores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Síguenos</p>
+            <div class="redes">
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook p-2"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                  />
+                </svg>
+              </a>
+              <a href="http://x.com" target="_blank" rel="noopener noreferrer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter p-2"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="http://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram p-2"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                  />
+                  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path d="M16.5 7.5v.01" />
+                </svg>
+              </a>
+              <a
+                href="http://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube p-2"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"
+                  />
+                  <path d="M10 9l5 3l-5 3z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-between mt-4 mb- flex-column flex-md-row"
+        >
+          <span>© 2025 Mundo Dinosaurio. Todos los derechos reservados</span>
+          <ul class="d-flex list-unstyled">
+            <li><a href="#" class="text-decoration-none">Privacidad</a></li>
+            <li><a href="#" class="text-decoration-none">Términos</a></li>
+            <li><a href="#" class="text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="row text-center container-datos p-3">
+          <div class="col-12">
+            <p>Gabriel Alejandro Cantú</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <p>Interacción con dispositivos móviles</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <p>Tuno noche</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <p>DWN2B</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <p>Primer año, segundo cuatrimestre</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
