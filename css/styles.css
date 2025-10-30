@@ -665,24 +665,49 @@ header {
 
 /* Section 2 tablet */
 
-@media screen and (min-width: 431px) and (max-width: 1024px) {
+@media screen and (min-width: 431px) and (max-width: 1400px) {
   .section-2 {
     .container-section-2 {
-      width: 80%;
+      width: 90%;
       margin: auto;
 
       .bento-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
 
         .rex {
-          grid-column: 1/4;
+          grid-column: 1/2;
           grid-row: 1/2;
         }
 
         .saurus {
-          grid-column: 1/4;
+          grid-column: 2/3;
+          grid-row: 1/2;
+        }
+
+        .Trice {
+          grid-column: 1/1;
+          grid-row: 2/2;
+        }
+
+        .tierra {
+          grid-column: 2/3;
           grid-row: 2/3;
+        }
+
+        .Stego {
+          grid-column: 1/3;
+          grid-row: 3/4;
+        }
+
+        .Especie {
+          grid-column: 1/2;
+          grid-row: 4/5;
+        }
+
+        .Velo {
+          grid-column: 2/3;
+          grid-row: 4/5;
         }
       }
     }
