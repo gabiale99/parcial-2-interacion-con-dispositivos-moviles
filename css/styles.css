@@ -179,6 +179,14 @@ header {
       p {
         font-family: "Open Sans", sans-serif;
         color: var(--text-3);
+
+        strong {
+          color: var(--background-color-secondary);
+        }
+
+        span {
+          color: #6f6e00;
+        }
       }
     }
   }
@@ -186,7 +194,7 @@ header {
 
 /* Sección 1 móvil */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 992px) {
   .section-1 {
     .container-secction-1 {
       .container-section-1-text {
