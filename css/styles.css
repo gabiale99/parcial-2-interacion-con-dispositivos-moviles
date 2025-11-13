@@ -531,13 +531,13 @@ header {
             font-family: "Raleway", sans-serif;
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: var(--text-secondary);
+            color: var(--background-color-secondary-hover);
           }
 
           p {
             font-family: "Open Sans", sans-serif;
             font-size: 1.2rem;
-            color: var(--text-2);
+            color: var(--background-color-secondary-hover);
             line-height: 1.4;
 
             opacity: 0;
@@ -554,14 +554,14 @@ header {
 
           span {
             font-family: "Roboto", sans-serif;
-            color: var(--text-secondary);
+            color: var(--background-color-secondary-hover);
             padding: 0.3rem 0.6rem;
             background: rgba(255, 255, 255, 0.28);
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(3.7px);
             -webkit-backdrop-filter: blur(3.7px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            border: 1px solid var(--background-color-secondary-hover);
           }
         }
 
@@ -673,7 +673,7 @@ header {
 
 /* Section 2 tablet */
 
-@media screen and (min-width: 431px) and (max-width: 1400px) {
+@media screen and (min-width: 700px) and (max-width: 1400px) {
   .section-2 {
     .container-section-2 {
       width: 90%;
